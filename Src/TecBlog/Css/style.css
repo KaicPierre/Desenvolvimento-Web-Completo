@@ -1,0 +1,121 @@
+/*Limpar formatações padrões*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    background: #e6e6e6;
+}
+
+/*Layout*/
+
+#cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu{
+padding: 10px;
+}
+
+#principal{
+   width: 920px;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+
+#postagens{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.conteudo-lateral{
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+/*Formatações do Menu*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#menu a:link, #menu a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#menu a:hover{
+    color: #f7b600;
+    background:#FFF;
+    transition: 200ms;
+}
+
+/*Formatações Gerais*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #CCC;
+    padding: 5px;
+}
+
+.branco{
+    color: whitesmoke;
+}
+
+.data-postagem{
+    display: block;
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
