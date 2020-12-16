@@ -1,0 +1,30 @@
+/*Herança e Especificidade*/
+
+/*
+#pagina p{
+    color: blue;
+}
+
+p{
+    color: red;
+}
+*/
+
+/*Se um seletor for mais específico que outro a regra mais específica será aplicada (tera precedência sobre regras mais gerais)*/
+
+
+*{ /*4º Prioridade*/
+    color: red;
+}
+
+h2{ /*3º Prioridade*/
+    color: blue;
+}
+
+h2.verde{ /*2º Prioridade*/
+    color: green;
+}
+
+h2#amarelo{ /*1º Prioridade*/
+    color: yellow;
+}

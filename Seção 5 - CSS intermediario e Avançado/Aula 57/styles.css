@@ -1,0 +1,42 @@
+/*Barra de Navegação Horizontal*/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0 url(./img/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+ul a{
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color: whitesmoke;
+    background: url(./img/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    background: #44cade;
+    color: #085662;
+    transition: 200ms;
+}
+
+#home #nav .home a, 
+#sobre #nav .sobre a, 
+#servicos #nav .servicos a,
+#noticias #nav .noticias a,
+#contatos #nav .contatos a{
+    background-color: #44cade;
+    color: #085662;
+}
