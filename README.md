@@ -9,7 +9,7 @@ Estudos feitos durante as aulas do curso "[*Desenvolvimento Web Completo 2020 - 
 This is what I'm learning during the classes at "[*Complete Web Development 2020*](https://www.udemy.com/course/web-completo/)" at Udemy
 
 ---
-<h2>Conteúdos - Content
+<h2>Conteúdos - Content</h2>
 
 *<sup>Português</sup>*
 
