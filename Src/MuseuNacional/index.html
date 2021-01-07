@@ -41,14 +41,119 @@
         <div id="principal"><!--Início Principal-->
 
             <div id="conteudo">
-                Conteúdos
+                <section id="capa">
+                    <img src="./img/museu.png" alt="Museu Nacional">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Vídeo: Conheça o Museu</h3>
+                        <iframe width="310px" height="170px" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2185.2925627532563!2d-43.227698479275034!3d-22.905647343965565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1610026742526!5m2!1spt-BR!2sbr" width="310px" height="170px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="">Os assustadores insetos</a>
+                            </li>
+
+                            <li>
+                                <a href="">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+                            </li>
+
+                            <li>
+                                <a href="">Preguiça gigante e tigre-dente-de-sabre</a>
+                            </li>
+
+                            <li>
+                                <a href="">Plantas do Brasil Central</a>
+                            </li>
+
+                            <li>
+                                <a href="">Arte com dinossauros - Paleoarte</a>
+                            </li>
+
+                            <li>
+                                <a href=""><strong>Veja Todos</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 Anos de história</h3>
+                        <p>
+                            Numa ponta que avança sobre o mar, posteriormente conhecida como Ponte do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza e Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+                        </p>
+                        <a href=""><strong>Leia Mais</strong></a>
+                    </article>
+
+                </section>
             </div>
 
             <aside>
-                Lateral
-            </aside>
-        </div><!--/Fim Principal-->
+                <section id="depoimento">
+                    <img src="./img/depoimento.png" alt="depoimento">
+                </section>
 
+                <section id="visita"> <!--Início Visita-->
+                    <h4>Faça uma Visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input type="text" class="campo" id="data" value="dd/mm/aaaa">
+
+                            <label for="data">Qtd Pessoas</label>
+                            <input style="width: 30px;" type="number" min="1" id="qtd" class="campo" value= 1>
+
+                        </fieldset>
+
+                        <input type="submit" class="botao" value="Verificar disponibilidade">
+                    </form>
+                </section><!--/Fim Visita-->
+
+                <section id="galeria"><!--Início Galeria-->
+                    <h1>Galeria de Fotos</h1>
+
+                    <a href="">
+                        <img src="./img/imagem1.jpg" height="93px" width="93px" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem2.jpg" height="93px" width="93px" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem3.jpg" height="93px" width="93px" alt="">
+                    </a>
+
+                    <a href="">
+                        <img src="./img/imagem4.jpg" height="93px" width="93px" alt="">
+                    </a>
+
+                </section><!--/Fim Galeria-->
+            </aside>
+
+            <footer> <!--Início Footer -->
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisas</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeo</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </p>
+                <p>2020 <a href=""> &copy Museu Nacional - Todos os Direitos Reservados.</a></p>
+            </footer><!--/Fim Footer-->
+        </div><!--/Fim Principal-->
     </div><!--/Fim Container-->
 </body>
 </html>
