@@ -37,5 +37,5 @@ Estudos de Caso - Case Studies |  Módulo do Curso - Course Section
 
 <sup>*Obs: All projects are just Case Studies, so most of it does not have relevant informative content, they are just "Templates"*</sup>
 
-<sup>*Ultima Atualização: 05/01/2021*</sup>
-<sup>*Last Update: 01/05/2020*</sup>
+<sup>*Ultima Atualização: 26/01/2021*</sup>
+<sup>*Last Update: 01/26/2021*</sup>
