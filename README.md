@@ -28,6 +28,7 @@ Estudos de Caso - Case Studies |  Módulo do Curso - Course Section
 [Parallax](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Parallax) | CSS3 - Intermediário & Avançado
 [Museu Nacional](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/MuseuNacional) | HTML5 e CSS3 Recursos Especiais
 [Finans](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Finans) | Bootstrap 4 & Design Responsivo
+[Spotify](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Spotify) | Bootstrap 4 & Design Responsivo
 
 *<sup>Português</sup>*
 

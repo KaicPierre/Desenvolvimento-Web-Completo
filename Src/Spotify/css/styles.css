@@ -1,5 +1,6 @@
 html,body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -39,6 +40,76 @@ nav.navbar-opacity{
     text-align: center;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
+/*Content*/
+
+.box{
+    padding: 20px 0px;
+}
+
+#services{
+    background: white;
+}
+
+#services h2, #services h3{
+    color: #7c55f8;
+}
+
+#resources h3, #resources p{
+    color: #9bf0e1;
+}
+
+#resources h2{
+    color: white;
+}
+
+.albuns{
+    padding: 10px 0;
+}
+
+.rotate{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/*Footer*/
+
+footer{
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: #919496;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: .8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
+
 /*Font Styles*/
 
 h1{
@@ -46,6 +117,18 @@ h1{
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04;
 }
 
 .btn-custom{
