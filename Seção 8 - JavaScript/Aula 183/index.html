@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var inputNumber1 = parseInt(prompt('Informe um número:'))
+        var inputOperator = prompt('Informe a Operação desejada')
+        var inputNumber2 = parseInt(prompt('Informe outro Numero'))
+        
+        function operacaoComDoisNumeros(numero1, operador, numero2){
+            if (inputOperator.toUpperCase() == 'SOMA')
+               return(numero1 + numero2)
+
+            else if (inputOperator.toUpperCase() == 'SUBTRAÇÃO' ||inputOperator.toUpperCase() == 'SUBTRACAO' )
+                return(numero1 - numero2)   
+        }
+
+        
+         var resultado = operacaoComDoisNumeros(inputNumber1, inputOperator, inputNumber2)
+
+         document.write(`O Resultado é ${resultado}`)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        //Funções Anonimas
+
+        var exibirSaudacao = function(nome){
+            console.log(`Olá ${nome}`)
+        }
+
+        exibirSaudacao('Kaic')
+
+        //Funcoes Callback
+
+        function exibirArtigo(id, callbackSucesso, callbackErro){
+            if (true){
+                callbackSucesso('Funções de Callback em JS', 'Utilizando Funções de Callback em JS')
+            }
+            else {
+                callbackErro('Erro ao recuperar os Dados')
+            }        
+        }
+
+        var callbackSucesso = (titulo, descricao)=>{
+            document.write(`<h1>${titulo}</h1>`)
+            document.write('<hr />')
+            document.write(`<p>${descricao}</p>`)
+        }
+
+        var callbackErro = (erro)=>{
+            document.write(`<h1>${erro}</h1>`)
+        }   
+
+        exibirArtigo(1, callbackSucesso, callbackErro)
+    </script>
+</body>
+</html>

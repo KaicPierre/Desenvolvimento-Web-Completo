@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        //Funcoes Nativas para manipulação de Datas
+
+        var data = new Date()
+
+
+        console.log(data)
+        console.log(data.getDate())
+        console.log(`${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`)
+
+
+        //ADD DIAS
+        console.log(data.toString())
+        data.setDate(data.getDate() -1 )
+        console.log(data.toString())
+
+        //ADD MESES
+        console.log(data.toString())
+        data.setMonth(data.getMonth() -1 )
+        console.log(data.toString())
+
+        //ADD ANOS
+        console.log(data.toString())
+        data.setFullYear(data.getFullYear() -1 )
+        console.log(data.toString())
+    
+
+
+
+        var data1 = new Date(2021, 0, 28)
+        var data2 = new Date(2021, 06, 23)
+
+        document.write(data1.toString())
+        document.write('<hr/>')
+        document.write(data2.toString())
+        document.write('<br/> <br/> <hr/>')
+
+        //Converter para algo que possa calcular
+        
+        document.write(data1.getTime())
+        document.write('<hr/>')
+        document.write(data2.getTime())
+        document.write('<br/> <br/> <hr/>')
+
+
+        //Encontrar a quantidade de ms entre data1 e data2
+
+        var dif = data2.getTime() - data1.getTime()
+        document.write(dif)
+        var dif = dif / 86400000
+        document.write('<br/> <br/> <hr/>')
+        document.write(dif)
+
+
+
+
+
+
+
+
+
+        //https://www.w3schools.com/    
+
+    </script>
+</body>
+</html>
