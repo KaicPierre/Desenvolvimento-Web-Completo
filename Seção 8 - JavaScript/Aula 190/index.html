@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <span>Digite um caracter:</span>
+            <input onkeyup="getCharacter()" maxlength="1" id="character" type="text" class="form-control" placeholder="Digite um caracter">
+            <span>Letras:</span>
+            <input type="text" class="form-control" id="letters" disabled>
+            <span>Números</span>
+            <input type="text" class="form-control" id="numbers" disabled>
+        </div>
+    </div>
+
+ <script>
+    function getCharacter(){
+
+    var char = document.getElementById('character').value
+    document.getElementById('character').value = ''
+    
+    switch(char){
+        case '0':  
+            document.getElementById('numbers').value += char
+            break
+        case '1':
+            document.getElementById('numbers').value += char
+            break
+        case '2':
+            document.getElementById('numbers').value += char
+            break
+        case '3':
+            document.getElementById('numbers').value += char
+            break
+        case '4':
+            document.getElementById('numbers').value += char
+            break
+        case '5':
+            document.getElementById('numbers').value += char
+            break
+        case '6':
+            document.getElementById('numbers').value += char
+            break
+        case '7':
+            document.getElementById('numbers').value += char
+            break
+        case '8':
+            document.getElementById('numbers').value += char
+            break
+        case '9':
+            document.getElementById('numbers').value += char
+            break
+        default:
+            document.getElementById('letters').value += char
+        }
+    }
+ </script>
+
+</body>
+</html>

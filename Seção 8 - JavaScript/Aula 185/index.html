@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body onresize="eventAction()" onscroll="eventAction()">
+<div class="container">
+    <div class="row justify-content-center mt-5">
+
+        <h1 class="display-4">Eventos de Mouse</h1>
+
+        <div class="btn-group my-3">
+            <button onclick="eventAction()" class="btn btn-primary btn-lg">On-click</button>
+            <button ondblclick="eventAction()" class="btn btn-secondary btn-lg">On Double click</button>
+            <button onmouseup="eventAction()" class="btn btn-primary btn-lg">On Mouse Up</button>
+            <button onmouseover="eventAction()" class="btn btn-secondary btn-lg">On Mouse Over</button>
+            <button onmouseout="eventAction()" class="btn btn-primary btn-lg">On Mouse Out</button>   
+    </div>
+
+    <h1 class="display-4">Eventos de Teclado</h1>
+        <div class="input-group  my-3">
+            <input onkeydown="eventAction()" type="text" class="form-control" placeholder="On Key Down">
+            <input onkeyup="eventAction()" type="text" class="form-control" placeholder="On Key Up">
+            <input onkeypress="eventAction()" type="text" class="form-control" placeholder="On Key Press">
+        </div>
+
+    <h1 class="display-4">Eventos de Janela</h1>
+        <div class="jumbotron col-12">
+            <ul class="list-group">
+                <li class="list-group-item">On Resize (body)</li>
+                <li class="list-group-item">On Scroll</li>
+            </ul>
+        </div>
+
+    <h1 class="display-4">Eventos de Formulario</h1>
+        <div class="input-group  my-3">
+            <input onfocus="eventAction()" onblur="eventAction()" type="text" class="form-control" placeholder="On Focus & On Blur">
+
+            <select onchange="eventAction()" class="form-control" name="" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+
+    
+</div>
+    
+
+    <script>
+        function eventAction(){
+            console.log('Evento Disparado')
+        }
+    </script>
+
+</body>
+</html>
