@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var listaFrutas = new Array()
+
+        listaFrutas[0] = 'Abacaxi'
+        listaFrutas[1] = 'Mamão'
+        listaFrutas[2] = 'Banana'
+        listaFrutas[3] = 'Romã'
+
+
+        //Ordenação de Array
+        console.log(listaFrutas.sort())
+    
+
+        var listaNumero = new Array()
+        listaFrutas[0] = 40
+        listaFrutas[1] = 22
+        listaFrutas[2] = 4
+        listaFrutas[3] = 1
+
+
+        //Ordenação de Array
+        console.log(listaFrutas.sort(ordenaNumeros))
+
+
+        function ordenaNumeros(a, b){
+            return a-b
+        }
+
+
+        var listaCoisas = []
+
+        listaCoisas['frutas'] = []
+
+        listaCoisas['frutas'][2] = 'Banana'
+        listaCoisas['frutas'][1] = 'Maça'
+        listaCoisas['frutas'][0] = 'Pera'
+
+
+        listaCoisas['pessoas'] = []
+        listaCoisas['pessoas'][0] = ['Kaic']
+        listaCoisas['pessoas'][1] = ['Astolfo']
+        listaCoisas['pessoas'][2] = ['Pierre']
+
+
+
+        //ADD no final do array
+        listaCoisas['frutas'].push('Uva')
+        //ADD no inicio do array
+        listaCoisas['frutas'].unshift('Morango')
+
+        //DEL no final do array
+        listaCoisas['frutas'].pop()
+        //DEL no final do array
+        listaCoisas['frutas'].shift()
+
+        
+        // Pesquisas em Array
+
+        console.log(listaCoisas['frutas'].indexOf('Banana'))
+    </script>
+</body>
+</html>
