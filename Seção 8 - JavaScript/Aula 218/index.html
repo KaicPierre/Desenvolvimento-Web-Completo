@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        var altura = window.screen.availHeight
+        var largura = window.screen.availWidth
+        console.log(`${altura}, ${largura}`);
+
+        // window.location.href = 'https://google.com'
+
+        // setTimeout(()=>{document.write('Teste')}, 5000)
+
+        var i = 5
+
+        var x = setInterval(()=>{
+            document.write(`${i} <br/>`)
+            i--
+
+            if(i === 0){
+                clearInterval(x)
+            }
+        }, 1000)
+
+    </script>
+</body>
+</html>

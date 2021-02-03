@@ -1,0 +1,84 @@
+html{
+    cursor: url(../img/mata_mosca.png) 15 15, auto;
+}
+
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        background-image: url(../img/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
+
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    }
+
+.mosquito2{
+    width: 70px;
+    height: 70px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.mosquito3{
+    width: 90px;
+    height: 90px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel{
+    position: absolute;
+    width: 210px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background: #fff;
+    opacity: .7;
+}
+
+.vidas{
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }

@@ -30,6 +30,7 @@ Estudos de Caso - Case Studies |  Módulo do Curso - Course Section
 [Finans](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Finans) | Bootstrap 4 & Design Responsivo
 [Spotify](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Spotify) | Bootstrap 4 & Design Responsivo
 [Calculadora](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Calculadora) | JavaScript
+[Mata Mosquito](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/MataMosquito) | Ja
 
 *<sup>Português</sup>*
 
