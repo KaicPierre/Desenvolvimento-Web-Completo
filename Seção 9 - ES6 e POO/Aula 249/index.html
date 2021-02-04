@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        
+        // class = Modelo do Objeto
+        // constructor = Construção do Ojeto
+
+        class ContaBancaria{
+            constructor(){
+                this.agencia = '0001'
+                this.conta = '123456'
+                this.saldo = 450
+                this.limite = 2000
+            }
+            
+            depositar(valorDeposito){
+                this.saldo += valorDeposito
+            }
+
+            sacar(valorSaque){
+                this.saldo -= valorSaque
+            }
+
+            consultarSaldo(){
+                return this.saldo
+            }
+        }
+
+        let contaKaic = new ContaBancaria()
+        let contaVazia = new ContaBancaria()
+        contaKaic.depositar(1128)
+        contaKaic.sacar(500)
+        console.log(contaKaic.consultarSaldo())
+
+        console.log(contaVazia.consultarSaldo())
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+ Texto <em>Sars-Covid 19</em>
+
+div>section#secao$*5.conteudo>div
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        // 3 Escopos: Global, função e bloco
+
+        // var criadas dentro de funções não sofrem hoisting
+
+        // var criadas dentro de blocos sofrem hoisting
+
+        // let preserva o escopo em que é criada, não sofre hoisting
+
+
+        if (true){
+            let serie = 'Supergirl'
+            console.log(serie);
+        }
+
+        console.log(serie);
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+</body>
+</html>
