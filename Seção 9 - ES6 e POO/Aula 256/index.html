@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        
+        let nome = 'Kaic'
+        let idade = 18
+        let sexo = 'Masculino'
+        let profissao = 'Estagiário'
+
+        let objeto = {
+            //Ocultando o nome do Par/Valor por ter o mesmo nome da variavel
+            nome,  
+            idade,
+            sexo, 
+            profissao,
+            exibirResumo(){
+                console.log(`${this.nome}, ${this.idade} anos, ${this.sexo} é  ${this.profissao}`);
+            }
+        }
+
+        console.log(objeto)
+        objeto.exibirResumo()
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+</body>
+</html>
