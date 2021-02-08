@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        let Carro = function(){
+
+            var velocidadeMaxima = 180
+            var quilometrosRodados = 0
+
+            this.cor = 'Azul'
+            this.modelo = 'Civic'
+            this.velocidadeAtual = 0
+
+            this.acelerar = function(){
+                let velocidade = this.getVelocidadeAtual() + 50
+
+                if (velocidade > velocidadeMaxima){
+                    velocidade = velocidadeMaxima
+                }
+                    this.setVelocidadeAtual(velocidade)
+                    quilometrosRodados += 0.05
+                    console.log(quilometrosRodados);
+                
+            }
+
+            this.getVelocidadeAtual = function(){
+                return this.velocidadeAtual
+            }
+
+            this.setVelocidadeAtual = function(velocidadeAtual) {
+                this.velocidadeAtual = velocidadeAtual
+            }
+
+        }
+
+        let carro = new Carro
+
+        console.log(carro.velocidadeAtual);
+        carro.acelerar()
+        console.log(carro.velocidadeAtual);
+        carro.acelerar()
+        console.log(carro.velocidadeAtual);
+        carro.acelerar()
+        console.log(carro.velocidadeAtual);
+        carro.acelerar()
+        console.log(carro.velocidadeAtual);
+        carro.acelerar()
+        console.log(carro.velocidadeAtual);
+        carro.acelerar()
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+</body>
+</html>
