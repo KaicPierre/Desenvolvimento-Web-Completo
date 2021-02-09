@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        //contexto spread
+
+        //Strings
+        let tituloArtigo = 'Como utilizar o operador rest/spread'
+
+        console.log(tituloArtigo)
+        console.log(...tituloArtigo)
+        console.log([...tituloArtigo]);
+
+        //Arrays
+
+        let listaCursos1 = ['NodeJS e MongoDB', 'ES6', 'TypeScript e Angular 4']
+
+        let listaCursos2 = ['Multiplataforma Android/IOS', 'Introdução ao GNU/Linux']
+
+        let listaCursosCompleta = ['Web Completo', 'Android Completo', ...listaCursos1, ...listaCursos2]
+
+        //Objetos
+
+        console.log(listaCursosCompleta);
+        console.log(listaCursos1);
+        console.log(listaCursos2);
+
+        let pessoa = {nome: 'João', idade: 27}
+        let clone = {endereco: 'Rua ABC', ...pessoa}
+        console.log(clone);
+
+        //contexto Rest
+
+
+         function soma(...param){
+
+             let resultado = 0
+             param.forEach(v => resultado += v)
+             return resultado
+         }
+
+         console.log(soma(3, 8, 5, 9))
+
+         function multiplicador(m, ...param){
+            console.log(m);
+            console.log(param);
+
+            let resultado = 0;
+            param.forEach(v => resultado += m * v)
+            return resultado
+         }
+
+         console.log(multiplicador(5, 7, 12, 3, 49))
+        
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+</body>
+</html>

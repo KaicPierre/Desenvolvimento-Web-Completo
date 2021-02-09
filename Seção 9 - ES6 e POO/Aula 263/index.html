@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        
+        let a1 = {
+            cor: 'Branco',
+            modelo: 'Airbus a380',
+            levantarVoo: function(){
+                console.log('Levantar Voo');
+            }
+        }
+
+        let AviaoF = function(){
+            this.cor = 'Azul',
+            this.modelo = 'Boeing 777',
+            this.levantarVoo = function(){
+                console.log('Levantar Voo');
+            }
+        }
+
+        let a2 = new AviaoF()
+
+        class AviaoC{
+            constructor(){
+                this.cor = 'Vermelho',
+                this.modelo = 'Embraer E-Jets'
+            }
+
+            levantarVoo(){
+                console.log('Levantar Voo');
+            }
+
+        }
+
+        let a3 = new AviaoC()
+
+        console.log(a1);
+        console.log(a2);
+        console.log(a3);
+
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+</body>
+</html>
