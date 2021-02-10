@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        //array
+
+        let arr = [10, 20, 30, 40]
+
+        function teste([ a, b, , c, d=100 ]){
+            console.log(a,b,c,d);
+        }
+
+        teste(arr)
+
+        let obj ={
+            a: 10,
+            b: 20,
+            c: 30,
+            d: 40
+        }
+
+        function teste2({ a, b, d }){
+            console.log(a, b, d);
+        }
+
+        teste2(obj)
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="output"></div>
+
+</body>
+</html>
