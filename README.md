@@ -21,7 +21,7 @@ O conteúdo produzido eu dividi em 2 repositorios, um voltado ao Front-End(Esse 
 
 This repo contains all studies that I've made so far, they are divided by sections just like at Udemy, except the Case Studies, you can find these at [*Src*](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src) or down bellow.
 
-The content that I've made during the course is divided in 2 repos, one for Front-End studies (this one) and the other for [Back-End]()studies.
+The content that I've made during the course is divided in 2 repos, one for Front-End studies (this one) and the other for [Back-End]() studies.
 
 Estudos de Caso - Case Studies |  Módulo do Curso - Course Section
 ---             | ---
