@@ -31,6 +31,7 @@ Estudos de Caso - Case Studies |  Módulo do Curso - Course Section
 [Spotify](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Spotify) | Bootstrap 4 & Design Responsivo
 [Calculadora](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/Calculadora) | JavaScript
 [Mata Mosquito](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/MataMosquito) | JavaScript
+[Orçamento Pessoal](https://github.com/KaicPierre/Curso-Web-Completo/tree/master/Src/OrcamentoPessoal) | JavaScript
 
 *<sup>Português</sup>*
 
@@ -40,5 +41,5 @@ Estudos de Caso - Case Studies |  Módulo do Curso - Course Section
 
 <sup>*Obs: All projects are just Case Studies, so most of it does not have relevant informative content, they are just "Templates"*</sup>
 
-<sup>*Ultima Atualização: 04/02/2021*</sup>
-<sup>*Last Update: 02/04/2021*</sup>
+<sup>*Ultima Atualização: 11/02/2021*</sup>
+<sup>*Last Update: 02/11/2021*</sup>
