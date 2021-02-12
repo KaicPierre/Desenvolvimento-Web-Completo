@@ -1,5 +1,4 @@
-Desenvolvimento Web Completo - Complete Web Development (Front-End)
----
+Desenvolvimento Web Completo - Complete Web Development
 *<sup>Português<sup>*
 
 Estudos feitos durante as aulas do curso "[*Desenvolvimento Web Completo 2020 - 20 Cursos + 20 Projetos*](https://www.udemy.com/course/web-completo/)" na **Udemy**.
