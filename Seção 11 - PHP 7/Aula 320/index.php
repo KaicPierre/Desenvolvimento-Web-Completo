@@ -11,9 +11,8 @@
     <?php 
         $valor = 10 ;
         $valor2 = (string) $valor;
-        echo gettype($valor)," $valor", '<br />'; 
+        echo gettype($valor)," $valor", '<br/>'; 
         echo gettype($valor2)," $valor2";
     ?>
-
 </body>
 </html>
